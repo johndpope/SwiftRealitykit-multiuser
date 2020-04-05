@@ -13,6 +13,7 @@
 		A4DD1F2B2439ACC100AB63A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DD1F292439ACC100AB63A7 /* Main.storyboard */; };
 		A4DD1F2D2439ACC400AB63A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DD1F2C2439ACC400AB63A7 /* Assets.xcassets */; };
 		A4DD1F302439ACC400AB63A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DD1F2E2439ACC400AB63A7 /* LaunchScreen.storyboard */; };
+		A4DD1F392439C38D00AB63A7 /* LaserRed.reality in Resources */ = {isa = PBXBuildFile; fileRef = A4DD1F382439C38D00AB63A7 /* LaserRed.reality */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A4DD1F2C2439ACC400AB63A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4DD1F2F2439ACC400AB63A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4DD1F312439ACC400AB63A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DD1F382439C38D00AB63A7 /* LaserRed.reality */ = {isa = PBXFileReference; lastKnownFileType = file; name = LaserRed.reality; path = ../../../LaserRed.reality; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A4DD1F232439ACC100AB63A7 /* AppDelegate.swift */,
 				A4DD1F252439ACC100AB63A7 /* ViewController.swift */,
+				A4DD1F382439C38D00AB63A7 /* LaserRed.reality */,
 				A4DD1F272439ACC100AB63A7 /* Experience.rcproject */,
 				A4DD1F292439ACC100AB63A7 /* Main.storyboard */,
 				A4DD1F2C2439ACC400AB63A7 /* Assets.xcassets */,
@@ -127,6 +130,7 @@
 			files = (
 				A4DD1F302439ACC400AB63A7 /* LaunchScreen.storyboard in Resources */,
 				A4DD1F2D2439ACC400AB63A7 /* Assets.xcassets in Resources */,
+				A4DD1F392439C38D00AB63A7 /* LaserRed.reality in Resources */,
 				A4DD1F2B2439ACC100AB63A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
