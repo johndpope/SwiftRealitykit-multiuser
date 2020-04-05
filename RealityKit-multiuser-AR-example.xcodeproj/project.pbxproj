@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		A4DD1F2D2439ACC400AB63A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DD1F2C2439ACC400AB63A7 /* Assets.xcassets */; };
 		A4DD1F302439ACC400AB63A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DD1F2E2439ACC400AB63A7 /* LaunchScreen.storyboard */; };
 		A4DD1F392439C38D00AB63A7 /* LaserRed.reality in Resources */ = {isa = PBXBuildFile; fileRef = A4DD1F382439C38D00AB63A7 /* LaserRed.reality */; };
+		A4DD1F3C2439D72E00AB63A7 /* MultipeerSession in Frameworks */ = {isa = PBXBuildFile; productRef = A4DD1F3B2439D72E00AB63A7 /* MultipeerSession */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4DD1F3C2439D72E00AB63A7 /* MultipeerSession in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,9 @@
 			dependencies = (
 			);
 			name = "RealityKit-multiuser-AR-example";
+			packageProductDependencies = (
+				A4DD1F3B2439D72E00AB63A7 /* MultipeerSession */,
+			);
 			productName = "RealityKit-multiuser-AR-example";
 			productReference = A4DD1F202439ACC100AB63A7 /* RealityKit-multiuser-AR-example.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +119,9 @@
 				Base,
 			);
 			mainGroup = A4DD1F172439ACC000AB63A7;
+			packageReferences = (
+				A4DD1F3A2439D72E00AB63A7 /* XCRemoteSwiftPackageReference "multipeer-session" */,
+			);
 			productRefGroup = A4DD1F212439ACC100AB63A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,6 +350,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4DD1F3A2439D72E00AB63A7 /* XCRemoteSwiftPackageReference "multipeer-session" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AddedLayer/multipeer-session";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4DD1F3B2439D72E00AB63A7 /* MultipeerSession */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4DD1F3A2439D72E00AB63A7 /* XCRemoteSwiftPackageReference "multipeer-session" */;
+			productName = MultipeerSession;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A4DD1F182439ACC000AB63A7 /* Project object */;
 }
